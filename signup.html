@@ -16,21 +16,24 @@
             <p class="mb-5">If you want to record your book<br>Create new account!</p>
             
             <div class="signup_input">
+                
                 <input 
                     type="text"
                     id="username_signup"
                     name="username_signup"
-                    placeholder="username"
+                    placeholder="username(eng,num)"
                     class="account"
+                    pattern="^[a-zA-Z0-9]+$"
                     required
                     autofocus
                 />
-
+                
                 <input 
                     type="password"
                     name="password_signup"
                     id="password_signup"
-                    placeholder="password"
+                    pattern="^[a-zA-Z0-9]+$"
+                    placeholder="password(eng,num)"
                     class="account"
                     required
                 />
