@@ -42,6 +42,7 @@
                     type="password"
                     name="password_check"
                     id="password_check"
+                    pattern="^[a-zA-Z0-9]+$"
                     placeholder="confirm password"
                     class="account"
                     required
@@ -59,14 +60,14 @@
                 <button class="btn btn-outline-success" onclick="sendlogin()">CONTINUE</button>
             </div>
 
-            <a href="./login.html" class="margin" onclick="golog()">Log In</a>
-            <a href="" class="forgotpassword_sign">Forgot PassWord?</a>
+            <a href="/login.html" class="margin" onclick="golog()">Log In</a>
+            <a href="" class="forgotpassword_sign">Forgot password?</a>
 
         </form>
 
     </section>
 
-    <script src="login.js"></script>
+    <!--<script src="login.js"></script>-->
 </body>
 
 </html>
