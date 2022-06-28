@@ -29,7 +29,8 @@ p {
     width: 500px;
     height: 600px;
     background-color: rgb(255, 255, 255);
-     border: 1px none black;
+    border-radius: 25px;
+    border: 1px none black;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(158, 196, 154, 0.35);
 }
 
@@ -54,8 +55,12 @@ p {
     font-size: small;
 }
 
-.account:active {
+.account:active, .account:hover {
     border: black;
+}
+
+.account:hover{
+    background-color: #adce97;
 }
 
 .btn {
